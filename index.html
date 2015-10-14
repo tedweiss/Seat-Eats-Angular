@@ -1,0 +1,42 @@
+<!doctype html>
+<html ng-app ="seatEats">
+	<head>
+		<title>Shopping Cart</title>
+		<link rel="shortcut icon" href="images/stadiumSeat.jpg">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<section id="container">
+			<div ng-controller="venueCtrl">
+				<header>
+					<h1>Seat Eats</h1>
+				</header>
+				<venues ng-repeat="contents in venue"><div ng-style="{'background-image': 'url(' + contents.background + ')'}"><img src="{{contents.logo}}"><p>{{contents.name}}</p></div></venues>
+			</div>
+
+<!-- 			<a href="html/comerica.html">
+				<div class="comerica stadium">
+				<img src="images/logoTigers.png">
+				<p>Comerica Park</p>
+			</div></a>
+			<div class="jla stadium">
+				<img src="images/logoRedWings.png">
+				<p>Joe Louis Arena</p>
+			</div>
+			<div class="fordField stadium">
+				<img src="images/logoLions.png">
+				<p>Ford Field</p>
+			</div>
+			<div class="palace stadium">
+				<img src="images/logoPistons.png">
+				<p>Palace</p>
+			</div> -->
+		</section>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+		<script src="script.js"></script>
+		<script src="js/venue.js"></script>
+		<script src="js/venueDirective.js"></script>
+	</body>
+</html>

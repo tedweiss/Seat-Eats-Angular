@@ -1,0 +1,60 @@
+#container {
+	width: 520px;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	width: 480px;
+	border: 2px;
+	margin: 20px;
+	text-align: center;
+	background-color: black
+}
+
+h1 {
+	padding-top: 40px;
+	color: white;
+}
+
+div {
+	height: 200px;
+	width: 480px;
+	border: 2px;
+	border-radius: 10px;
+	margin: 20px;
+	box-shadow: 5px 5px 5px black;
+}
+
+img {
+	height: 180px;
+	margin-top: 5px;
+	float: left;
+}
+
+p {
+	color: white;
+	text-shadow: 0 0 3px black;
+	font-size: 30px;
+	text-align: right;
+	margin-right: 40px;
+	margin-top: 80px;
+	float: right;
+	display: inline;
+}
+
+.jla {
+	background-image: url(../images/jla.jpg);
+}
+
+.comerica {
+	background-image: url(../images/comericaPark.jpg);
+}
+
+.fordField {
+	background-image: url(../images/fordField.jpg);
+}
+
+.palace {
+	background-image: url(../images/palace.jpg);
+}

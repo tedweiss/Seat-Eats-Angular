@@ -1,0 +1,51 @@
+#container {
+	width: 520px;
+	margin: 0 auto;
+	background-color: yellow;
+}
+
+header {
+	height: 100px;
+	width: 480px;
+	border: 2px;
+	margin: 20px;
+	text-align: center;
+	background-color: black
+}
+
+h1 {
+	padding-top: 40px;
+	color: white;
+}
+
+.item {
+	height: 100px;
+	width: 480px;
+	border: 2px;
+	border-radius: 10px;
+	margin: 20px;
+	box-shadow: 5px 5px 5px black;
+ /*change*/
+	background-color: gray;
+	display: inline-block;
+}
+
+p {
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+	color: white;
+	text-shadow: 0 0 3px black;
+	font-size: 30px;
+}
+
+.price {
+	float: left;
+	padding-left: 15px;
+}
+
+#input_div {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
